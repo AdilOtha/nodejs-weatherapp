@@ -2,20 +2,24 @@
 <html>
 
 <head>
+    {{>require_top}}
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/weather.png">
     <title>Help</title>
 </head>
 
 <body>
-    <div class="main-content">
+    <div class="container">
         {{>header}}
+    </div>
+    <div class="main-content container" id="helpText">
+        
         <h3>{{helpText}}</h3>
-        <p>This app uses data from <a href="https://www.mapbox.com/">mapbox.com</a> and <a href="https://darksky.net">darksky.net</a></p>
-        <p>( App still in development so please don't judge! XD )</p>
+        <p>This app uses data from <a href="https://www.mapbox.com/">mapbox.com</a> and <a href="https://darksky.net">darksky.net</a></p>        
     </div>
 
     {{>footer}}
+    {{>require_bottom}}
 </body>
 
 </html>

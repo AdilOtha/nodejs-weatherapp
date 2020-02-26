@@ -1,51 +1,72 @@
 body{
-    color: #333333;
-    font-family: arial;
-    max-width: 650px;
+    font-family: 'Lobster';
+    font-size: 30px;
+    background-color: #26c6da;
+    background-image: linear-gradient(to bottom left,#00838f ,#80deea);
+    /*max-width: 650px;
     margin: 0 auto;
-    padding: 0 16px; 
-
+    padding: 0 16px;*/ 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.main-content{
-    flex-grow: 1; 
+#weatherRow{
+    border-radius: 20px;
+	border-color: rgb(247, 247, 103);
+    border-style: solid;
+    font-family: 'Oxanium';
+    padding: 16px;
 }
 
-footer{
+#helpText{
+    font-family: 'Oxanium';
+}
+
+#aboutText{
+    font-family: 'Oxanium';
+}
+
+p a{
+    color: rgb(247, 247, 103);
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+/* footer{
     color: #888888;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
-}
+} */
 
-header{
+/* header{
     margin-top: 16px;
     margin-bottom: 48px;
-}
+} */
 
-h1{
+/* h1{
     font-size: 64px;
     margin-bottom: 16px;
-}
+} */
 
-header a{
+/* header a{
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
-}
+} */
 
-input{
-    border: 1px solid #cccccc;
+/* input{
+    border: 1px solid #ffea00;
     padding: 8px;
-}
+} */
 
-button{
+/* button{
     cursor: pointer;
     border: 1px solid #888888;
     background: #888888;
     padding: 8px;
     color: white;
-}
+} */

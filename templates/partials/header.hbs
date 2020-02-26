@@ -1,7 +1,22 @@
 <header>
-    <h1>{{title}}</h1>
+    {{!-- <h1>{{title}}</h1> --}}
+    <nav>
+        <div class="nav-wrapper yellow lighten-1">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="black-text" href="/">Weather</a></li>
+                <li><a class="black-text " href="/help">Help</a></li>
+                <li><a class="black-text" href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Weather</a></li>
+        <li><a href="/help">Help</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
     
-    <a href="/">Weather</a>
-    <a href="/help">Help</a>
-    <a href="/about">About</a>
+    
+    
 </header>
